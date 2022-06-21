@@ -1,0 +1,33 @@
+{
+  "name": "fund-me-hardhat",
+  "author": "Shivam Mina",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^7.29.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.9",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.16"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "hardhat-deploy": "^0.11.10"
+  },
+  "scripts":{
+    "test": "npx hardhat test",
+    "test:stagnig":"npx hardhat test --network rinkeby",
+    "lint":"npx solhint 'contracts/*.sol'",
+    "format":"npx prettier --write .",
+    "coverage":"npx hardhat coverage",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix"
+  }
+}

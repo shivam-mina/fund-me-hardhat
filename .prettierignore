@@ -1,0 +1,12 @@
+node_modules
+artifacts
+cache
+coverage*
+gasReporterOutput.json
+package.json
+coverage.json
+.env
+README.md
+img
+.*
+hardhat.config.js
