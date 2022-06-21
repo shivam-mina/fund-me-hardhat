@@ -7,7 +7,7 @@
 - [Nodejs](https://nodejs.org/en/)
   - You'll know you've installed nodejs right if you can run:
     - `node --version` and get an ouput like: `vx.x.x
-- [npm] Node Package Manager
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) Node Package Manager
 
 ## Quickstart
 
