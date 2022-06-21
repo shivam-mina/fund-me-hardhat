@@ -6,13 +6,13 @@
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [Nodejs](https://nodejs.org/en/)
   - You'll know you've installed nodejs right if you can run:
-    - `node --version` and get an ouput like: `vx.x.x`
--[npm] Node Package Manager
+    - `node --version` and get an ouput like: `vx.x.x
+- [npm] Node Package Manager
 
 ## Quickstart
 
 ```
-git clone [https://github.com/PatrickAlphaC/hardhat-fund-me-fcc](https://github.com/shivam-mina/fund-me-hardhat.git)
+git clone (https://github.com/shivam-mina/fund-me-hardhat.git)
 cd fund-me-hardhat
 npx
 ```
