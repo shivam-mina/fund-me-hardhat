@@ -12,7 +12,7 @@
 ## Quickstart
 
 ```
-git clone (https://github.com/shivam-mina/fund-me-hardhat.git)
+git clone https://github.com/shivam-mina/fund-me-hardhat.git
 cd fund-me-hardhat
 npx
 ```
